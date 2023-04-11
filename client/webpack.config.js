@@ -46,11 +46,15 @@ module.exports = () => {
     ],
 
     module: {
-      // CSS loaders
       rules: [
+        // CSS loader
         {
           test: /\.css$/i,
           use: ['style-loader', 'css-loader'],
+        },
+        {
+          test: /\.html$/,
+          loader: 'html-loader',
         },
         {
           test: /\.(png|svg|jpg|jpeg|gif)$/i,

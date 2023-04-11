@@ -8,6 +8,10 @@ J.A.T.E (Just Another Text Editor) is a web-based text editor that provides user
 
 The app is built using HTML, CSS, and JavaScript, with the CodeMirror library for the text editor interface. It also utilizes Workbox and Service Workers to enable offline functionality, ensuring that the app remains available even without an active internet connection. Users can also download the app to their desktop by clicking the "Install!" button.
 
+![IndexedDBStorage](./Assets/IndexedDB.png)
+![Manifest](./Assets/manifest.png)
+![ServiceWorker](./Assets/serviceworker.png)
+
 ## Installation
 
 To use J.A.T.E, simply navigate to the following link: https://jate-online-text-editor.herokuapp.com/
